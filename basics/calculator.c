@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int a = 10, b = 5;
+    char op = '+';
+
+    switch (op) {
+        case '+': printf("%d", a + b); break;
+        case '-': printf("%d", a - b); break;
+        case '*': printf("%d", a * b); break;
+        case '/': printf("%d", a / b); break;
+        default: printf("Invalid");
+    }
+
+    return 0;
+}
